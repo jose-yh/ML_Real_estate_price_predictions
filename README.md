@@ -3,7 +3,7 @@
 ## Descripción del proyecto
 
 Este repositorio contiene el desarrollo del proyecto **"ML_Real estate price precidictions"** para predecir los precios de inmuebles utilizando una API solcitada a Idealista.
-#Fuente en donde se solicitó la API#: https://developers.idealista.com/access-request
+Fuente en donde se solicitó la API: https://developers.idealista.com/access-request
 
 ### Integrante:
 - Juan José Yaya Hermoza
