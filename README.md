@@ -1,40 +1,49 @@
 # ML_Real_estate_price_predictions
 
-## Descripción del proyecto
+## Project description
 
-Este repositorio contiene el desarrollo del proyecto **"ML_Real estate price precidictions"** para predecir los precios de inmuebles utilizando una API solcitada a Idealista.
-#Fuente en donde se solicitó la API#: https://developers.idealista.com/access-request
+This repository contains the development of the **"ML_Real estate price predictions"** project to predict real estate prices using an API requested to Idealista
 
-### Integrante:
+Search API lets us integrate property information published on idealista into their site or app.
+https://developers.idealista.com/access-request
+
+### Member:
 - Juan José Yaya Hermoza
 
-### Caso de uso:
-El objetivo es predecir los precios de inmuebles con ML, mediante la extracción de estos datos utilizando una API de Idealista (público), se podrá realizar búsquedas mensuales y entrenar un modelo para calcular precios actualizados de pisos. Por lo tanto, analizar si el precio de venta puede ser una oportunidad de compra.
+### Use case:
+The main objective is to analyze whether sales prices represent a favorable purchasing opportunity in **Asturias**. This will allow potential buyers to make more informed decisions in the real estate market.
 
-### Estructura del Repositorio
+The prediction will be made using ML, extracting data using an Idealista API, where monthly searches can be performed and a model trained to calculate updated prices.
+
+### Repository Structure
 
 ```
 ML_Real_estate_price_precidictions
 ├─ .gitignore
 ├─ README.md
+├─ 0-Guia_Proyecto_ML.ipynb
 └─ src
    ├─ data_sample
-   │  ├─ XXXXXXdataset_test.csv
+   │  ├─ idealista_astur1.csv
+   │  ├─ price_coordinate.csv
+   │  ├─ X_test.csv
+   │  ├─ X_train.csv
    ├─ img
-   │  └─ XXXX
+   │  └─ empty
    ├─ notebooks
-   │  └─ ML_Real estate price precidictions-Notebook.ipynb
+   │  ├─ ML_Real_estate_price_precidictions_Notebook_1.ipynb
+   │  ├─ ML_Real_estate_price_precidictions_Notebook_2.ipynb
+   │  └─ ML_Real_estate_price_precidictions_Notebook_3.ipynb
    ├─ result_notebooks
-   │  ├─ ML_Real estate price precidictions_I.ipynb
-   │  └─ ML_Real estate price precidictions_II.ipynb
+   │  └─ ML_Real_estate_price_precidictions_Notebook_3.ipynb
    ├─ models
-   │  ├─ XXXXXbest_model.pkl
-   │  └─ XXXXXbest_model_net.pkl
+   │  ├─ best_model_1.pkl
+   │  └─ best_model_2.pkl
    └─ utils
       ├─ bootcampviztools.py
       └─ toolbox_ML.py
 ```
 
-### Autor
+### Author
 
 Juan José YAYA HERMOZA A.K.A. **ML_Real_estate_price_predictions**
